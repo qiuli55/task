@@ -6,6 +6,7 @@
     /* overflow: hidden; */
     position: relative;
     height: 80px;
+    min-width: 980px;
 }
 .tb {
     background-image: url(../img/github-mark-white.png);
@@ -44,7 +45,6 @@
 .nav1 {
     display: flex;
     justify-content: center;
-    gap: 28px;
 }
 .s {    
     font-size: 14px;
@@ -69,6 +69,9 @@
     text-align: right;
     color: aliceblue;
 }
+.zhogjian {
+    min-width: 980px;
+}
 
 .datu {
     background-image: url('../img/banner-jpg.webp');
@@ -80,6 +83,7 @@
     
     display: flex;
     justify-content: center;
+    min-width: 980px;
 }
 .neirong {
     /* background-color:; */
@@ -111,7 +115,7 @@ h2 {
     background: linear-gradient(to bottom, rgba(255,255,255,0.5),rgba(255,255,255,0))
 }
 .nr1 {
-    background-image: url(../img/微信图片_20250106174727.jpg);
+    background-image: url(../img/fengjing.jpg);
     background-repeat: no-repeat;
     background-size: 300px 180px;
     /* margin-top: 20px; */
@@ -130,7 +134,7 @@ h2 {
     margin-right: 30px;
 }
 .nr2 {
-    background-image: url(../img/微信图片_20250106174746.jpg);
+    background-image: url(../img/fengjing1.jpg);
     background-repeat: no-repeat;
     background-size: 300px 180px;
     /* margin-top: 20px; */
@@ -156,7 +160,7 @@ h2 {
     margin-right: 30px;
 }
 .nr3 {
-    background-image: url(../img/微信图片_20250106174751.jpg);
+    background-image: url(../img/fengjing2.jpg);
     background-repeat: no-repeat;
     background-size: 300px 180px;
     /* margin-top: 20px; */
@@ -200,6 +204,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
+    min-width: 980px;
 }
 .weibu {
     background-color: white;
@@ -210,9 +215,10 @@ h2 {
     display: flex;
     justify-content: center;
     position: relative;
+    min-width: 980px;
 }
 .touxiang {
-    background-image: url(../img/微信图片_20250106174746.jpg);
+    background-image: url(../img/fengjing1.jpg);
     border-radius: 50%;
     width: 160px;
     height: 160px;
@@ -260,10 +266,15 @@ h2 {
 body {
     background-color: bisque;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+}
 .lianjie1 {
     background-color: black;
     width: 100%;
     color: white;
+    min-width: 980px;
     
 }
 .lianjie2 {
